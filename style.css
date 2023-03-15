@@ -1,0 +1,28 @@
+body, ul, li, p{
+    margin: Opx;
+    padding: 0px;
+    list-style: linear-gradient(align-items);  /* tira a marcação do link (bolinha por exemplo) */
+    font-size: 1.2rem;
+    font-family: arial;
+    
+}
+
+/* Define o tamanho da imagem do logo - largura */
+.logo{
+    width: 200px;
+}
+
+/* Define as características da TAG ancor */
+a{
+    text-decoration: white;     /* tira o sublinhado do link */
+    color: white;            /* Cor do texto */
+}
+
+/* Define as características do header */ 
+.header{
+background-color: black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
