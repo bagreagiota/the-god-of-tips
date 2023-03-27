@@ -1,12 +1,38 @@
 body, ul, li, p{
     margin: Opx;
     padding: 0px;
-    list-style: linear-gradient(align-items);  /* tira a marcação do link (bolinha por exemplo) */
+    list-style: none;  /* tira a marcação do link (bolinha por exemplo) */
     font-size: 1.2rem;
     font-family: arial;
     
 }
+a{
+text-decoration: none;
+color: white;
+}
 
+.header{
+background-color: black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.menu{
+ display: flex;
+
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
 /* Define o tamanho da imagem do logo - largura */
 .logo{
     width: 200px;
@@ -14,16 +40,49 @@ body, ul, li, p{
 
 /* Define as características da TAG ancor */
 a{
-    text-decoration: white;     /* tira o sublinhado do link */
-    color: white;            /* Cor do texto */
+    text-decoration: none;     /* tira o sublinhado do link */
+    color: black;            /* Cor do texto */
 }
 
 /* Define as características do header */ 
 .header{
-background-color: black;
+background-color: white;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 }
 
+.imagem{
+width: 400px;
+height: auto;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.flex{
+    min-height: 100vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    width: 400px;
+    height: auto;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    padding: 10px;
+    text-align: justify;
+
+}
