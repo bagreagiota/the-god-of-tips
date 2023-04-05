@@ -46,7 +46,7 @@ a{
 
 /* Define as características do header */ 
 .header{
-background-color: white;
+background-color: teal;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -82,7 +82,9 @@ body{
 }
 
 .paragrafo{
+    font-family: 'Coming Soon', cursive;
     padding: 10px;
     text-align: justify;
+
 
 }
