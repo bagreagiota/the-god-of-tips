@@ -88,3 +88,19 @@ body{
 
 
 }
+.footer{
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeLogo{
+    margin: 10px;
+}
